@@ -1,0 +1,1942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\awtk">
+      <UniqueIdentifier>{d94e653e-a39d-423a-a541-7a3aa88f7425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\3rd">
+      <UniqueIdentifier>{6a9ce1eb-0e41-473b-83ee-b188b18b30ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\3rd\stb">
+      <UniqueIdentifier>{e6561df9-18fe-4f81-af32-36abbb9cd8fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src">
+      <UniqueIdentifier>{253cbe17-248c-4e61-ba8e-e1aaf831968d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\base">
+      <UniqueIdentifier>{77742d9e-6d97-4f45-8b40-1cce3dd0231f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\blend">
+      <UniqueIdentifier>{f65dff84-b110-49d1-b44c-0b8118b25637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\clip_board">
+      <UniqueIdentifier>{77017237-3f3b-49d6-b2a2-a0b20a068e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\dialog_highlighters">
+      <UniqueIdentifier>{712e01d4-4934-40d2-8923-4213cd881e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\font_laoder">
+      <UniqueIdentifier>{d88d7d1c-0eb6-421f-bf59-ee32f6714ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\graphic_buffer">
+      <UniqueIdentifier>{b0ff8ec6-0c73-4520-8407-ce332e84b513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\image_loader">
+      <UniqueIdentifier>{8be904fe-e849-4085-84d8-00f4d97a58a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\input_engines">
+      <UniqueIdentifier>{f7f092e7-3b2a-453f-ad2a-6c8df8f8f388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\input_methods">
+      <UniqueIdentifier>{203ad8f4-ac3a-4e60-8277-feebd76fee61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\layouters">
+      <UniqueIdentifier>{5c59b768-3cf4-4d18-8dd3-71ef0f24ac6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\misc">
+      <UniqueIdentifier>{c1f6f42c-bbed-4504-abf2-c219ee08cf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\native_window">
+      <UniqueIdentifier>{551e7064-1639-4ce9-a7ad-8c232ea2c139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\platforms">
+      <UniqueIdentifier>{c43e6564-a23e-4406-800e-47c745428551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\svg">
+      <UniqueIdentifier>{cbc92b86-00fc-465f-aa00-049de6fc99a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\tkc">
+      <UniqueIdentifier>{74340f89-051f-4e39-abd2-42f9600c9cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ubjson">
+      <UniqueIdentifier>{ffd27025-b42c-4406-ad47-52f59657a401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ui_loader">
+      <UniqueIdentifier>{e92d693a-5e3e-44eb-804e-2f9ec894914d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\vgcanvas">
+      <UniqueIdentifier>{80eaafab-0667-4358-8a95-4c9ae5d4be76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\widgets">
+      <UniqueIdentifier>{65231e8f-72d7-4604-a873-02a3cbeb3787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\window_manager">
+      <UniqueIdentifier>{afb9ac13-e11a-477c-afef-1210aba54c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\xml">
+      <UniqueIdentifier>{16cace7d-46e5-4901-9ab2-fe97860b6949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets">
+      <UniqueIdentifier>{585c9e25-8bdf-43ae-a1b3-92d749c521e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\canvas_widget">
+      <UniqueIdentifier>{532fa9a3-84ad-4e66-9195-82bdfb7bb57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\color_picker">
+      <UniqueIdentifier>{bd4e327a-1f39-4c1a-8bf5-91a674341715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\combo_box_ex">
+      <UniqueIdentifier>{34b10b20-3f0d-440d-b4e8-91a42defef64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\features">
+      <UniqueIdentifier>{2d07ea2f-7bdb-47ac-8ac0-c562533e77a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\gif_image">
+      <UniqueIdentifier>{875547e4-0803-4e2c-8850-7b675c6446d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\guage">
+      <UniqueIdentifier>{dc3c9f5f-9140-48f1-93ba-77b61598fb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\image_value">
+      <UniqueIdentifier>{69d89020-7638-4a7c-b801-a157a86bfcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\keyboard">
+      <UniqueIdentifier>{dcb1aead-83bb-4b0b-92c3-77fffe208449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\mledit">
+      <UniqueIdentifier>{1b910072-5ae0-4e36-9e04-f0400a67b4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\mutable_image">
+      <UniqueIdentifier>{598e313a-7249-48e3-9785-c1cba2759c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\progress_circle">
+      <UniqueIdentifier>{d860ef3b-1511-46e2-bc1d-ecff114bc7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\rich_text">
+      <UniqueIdentifier>{62f52b8b-6fb3-4dbe-84f8-bfa1c66a8987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\scroll_label">
+      <UniqueIdentifier>{d969effd-c1fe-4641-83c7-1ca77dad4902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\scroll_view">
+      <UniqueIdentifier>{9aa6c979-5167-406e-8d77-8c4ad2c9d828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\slide_menu">
+      <UniqueIdentifier>{a075ea03-26b1-4fe5-91d0-a2695d512414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\slide_view">
+      <UniqueIdentifier>{e101bb9e-cd0c-42e5-8e79-e8acc4cc7d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\svg_image">
+      <UniqueIdentifier>{fd069d4d-58a1-4667-b7a5-d7b783be2e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\switch">
+      <UniqueIdentifier>{94f8d1c5-7f30-4d12-b3ad-08ab5b800255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\text_selector">
+      <UniqueIdentifier>{778fe3a0-addc-42d9-a0eb-407c06cbf673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\time_clock">
+      <UniqueIdentifier>{61bc6755-0c11-4208-b860-adc0f9f8c22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\ext_widgets\image_animation">
+      <UniqueIdentifier>{ef2d3ecf-d1ba-46c0-89b1-b0ff662591ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\window_animators">
+      <UniqueIdentifier>{855eb6af-8d49-4a00-942b-2c4c4d3ae39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\awtk\src\widget_animators">
+      <UniqueIdentifier>{50b505c1-851c-4691-a00a-745c88d994cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\awtk\src\base\ffr_draw_rounded_rect.inc">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\base\wuxiaolin.inc">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\blend\blend_image.inc">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\blend\fill_image.inc">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\blend\pixel_ops.inc">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\blend\rotate_image.inc">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\input_methods\input_method_default.inc">
+      <Filter>Source Files\awtk\src\input_methods</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\input_methods\input_method_null.inc">
+      <Filter>Source Files\awtk\src\input_methods</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\input_methods\suggest_words.inc">
+      <Filter>Source Files\awtk\src\input_methods</Filter>
+    </None>
+    <None Include="..\..\..\awtk\src\vgcanvas\texture.inc">
+      <Filter>Source Files\awtk\src\vgcanvas</Filter>
+    </None>
+    <None Include="awtk_vsf.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="awtk_vsf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_c_lexer.h">
+      <Filter>Source Files\awtk\3rd\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_image.h">
+      <Filter>Source Files\awtk\3rd\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_image_resize.h">
+      <Filter>Source Files\awtk\3rd\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_image_write.h">
+      <Filter>Source Files\awtk\3rd\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_textedit.h">
+      <Filter>Source Files\awtk\3rd\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_truetype.h">
+      <Filter>Source Files\awtk\3rd\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\awtk.h">
+      <Filter>Source Files\awtk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\awtk_base.h">
+      <Filter>Source Files\awtk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\awtk_ext_widgets.h">
+      <Filter>Source Files\awtk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\awtk_global.h">
+      <Filter>Source Files\awtk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\awtk_tkc.h">
+      <Filter>Source Files\awtk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\awtk_widgets.h">
+      <Filter>Source Files\awtk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\assets_manager.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\awtk_config_sample.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\bitmap.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\canvas.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\children_layouter.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\children_layouter_factory.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\clip_board.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\dialog.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\dialog_highlighter.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\dialog_highlighter_factory.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\enums.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\events.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\event_queue.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\font.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\font_loader.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\font_manager.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\g2d.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\glyph_cache.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\graphic_buffer.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\hscrollable.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\idle.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\image_base.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\image_loader.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\image_manager.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\input_device_status.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\input_engine.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\input_method.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\keys.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\layout.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\layout_def.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\lcd.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\lcd_profile.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\line_break.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\locale_info.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\main_loop.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\native_window.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\pixel.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\pixel_pack_unpack.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\self_layouter.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\self_layouter_factory.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\shortcut.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\style.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\style_const.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\style_factory.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\style_mutable.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\suggest_words.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\system_info.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\text_edit.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\theme.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\timer.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\types_def.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\ui_builder.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\ui_feedback.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\ui_loader.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\velocity.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\vgcanvas.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\widget.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\widget_animator.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\widget_animator_factory.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\widget_animator_manager.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\widget_consts.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\widget_factory.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\widget_vtable.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\window.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\window_animator.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\window_animator_factory.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\window_base.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\base\window_manager.h">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr565_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr888_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgra8888_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb565_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb888_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgba8888_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_abgr8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_argb8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_bgr888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_rgb565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_rgb888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\image_g2d.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_bgr565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_bgr888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_bgra8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_rgb565.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_rgb888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_rgba8888.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\blend\soft_g2d.h">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\clip_board\clip_board_default.h">
+      <Filter>Source Files\awtk\src\clip_board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_builtins.h">
+      <Filter>Source Files\awtk\src\dialog_highlighters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_default.h">
+      <Filter>Source Files\awtk\src\dialog_highlighters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_bitmap.h">
+      <Filter>Source Files\awtk\src\font_laoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_ft.h">
+      <Filter>Source Files\awtk\src\font_laoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_stb.h">
+      <Filter>Source Files\awtk\src\font_laoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_truetype.h">
+      <Filter>Source Files\awtk\src\font_laoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\image_loader\image_loader_stb.h">
+      <Filter>Source Files\awtk\src\image_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\input_engines\input_engine_null.h">
+      <Filter>Source Files\awtk\src\input_engines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\input_methods\input_method_default.h">
+      <Filter>Source Files\awtk\src\input_methods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\input_methods\input_method_null.h">
+      <Filter>Source Files\awtk\src\input_methods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\layouters\children_layouter_builtins.h">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\layouters\children_layouter_default.h">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\layouters\self_layouter_builtins.h">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\layouters\self_layouter_default.h">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\layouters\self_layouter_menu.h">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\misc\new.hpp">
+      <Filter>Source Files\awtk\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\native_window\native_window_raw.h">
+      <Filter>Source Files\awtk\src\native_window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_builder.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_common.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_draw.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_to_svg.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_path.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_path_parser.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_shape.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_to_bsvg.h">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\asset_info.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\buffer.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\color.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\color_parser.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\compressor.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\cond_var.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\crc.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\darray.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\date_time.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\easing.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\emitter.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\endian.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\event.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_fd.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_idle.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_manager.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_manager_default.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_timer.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\expr_eval.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\fs.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\func_call_parser.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\func_desc.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\idle_info.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\idle_manager.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\int_str.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\iostream.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\istream.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\log.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\matrix.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\mem.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\mime_types.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\mutex.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\named_value.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\object.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\object_array.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\object_default.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\ostream.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\path.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\platform.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\rect.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\ring_buffer.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\rom_fs.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\semaphore.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\slist.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\socket_pair.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\str.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\stream_const.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\str_str.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\thread.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\timer_info.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\timer_manager.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\time_now.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\tokenizer.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\types_def.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\utf8.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\utils.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\value.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\value_desc.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\tkc\wstr.h">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_const.h">
+      <Filter>Source Files\awtk\src\ubjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_parser.h">
+      <Filter>Source Files\awtk\src\ubjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_reader.h">
+      <Filter>Source Files\awtk\src\ubjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_writer.h">
+      <Filter>Source Files\awtk\src\ubjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_binary_writer.h">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_builder_default.h">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_loader_default.h">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_loader_xml.h">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_serializer.h">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_xml_writer.h">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\app_bar.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\button.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\button_group.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\calibration_win.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\check_button.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\color_tile.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\column.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\combo_box.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\combo_box_item.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\dialog_client.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\dialog_title.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\digit_clock.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\dragger.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\edit.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\grid.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\grid_item.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\group_box.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\image.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\label.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\overlay.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\pages.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\popup.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\progress_bar.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\row.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\slider.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\spin_box.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\system_bar.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\tab_button.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\tab_button_group.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\tab_control.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\view.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widgets\widgets.h">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_manager\window_manager_default.h">
+      <Filter>Source Files\awtk\src\window_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\xml\xml_builder.h">
+      <Filter>Source Files\awtk\src\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\xml\xml_parser.h">
+      <Filter>Source Files\awtk\src\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk_config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\canvas_widget\canvas_widget.h">
+      <Filter>Source Files\awtk\src\ext_widgets\canvas_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\color_component.h">
+      <Filter>Source Files\awtk\src\ext_widgets\color_picker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\color_picker.h">
+      <Filter>Source Files\awtk\src\ext_widgets\color_picker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\color_picker_const.h">
+      <Filter>Source Files\awtk\src\ext_widgets\color_picker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\rgb_and_hsv.h">
+      <Filter>Source Files\awtk\src\ext_widgets\color_picker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\combo_box_ex\combo_box_ex.h">
+      <Filter>Source Files\awtk\src\ext_widgets\combo_box_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\features\draggable.h">
+      <Filter>Source Files\awtk\src\ext_widgets\features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\gif_image\gif_image.h">
+      <Filter>Source Files\awtk\src\ext_widgets\gif_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\guage\guage.h">
+      <Filter>Source Files\awtk\src\ext_widgets\guage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\guage\guage_pointer.h">
+      <Filter>Source Files\awtk\src\ext_widgets\guage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\image_value\image_value.h">
+      <Filter>Source Files\awtk\src\ext_widgets\image_value</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\keyboard\candidates.h">
+      <Filter>Source Files\awtk\src\ext_widgets\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\keyboard\keyboard.h">
+      <Filter>Source Files\awtk\src\ext_widgets\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\mledit\line_number.h">
+      <Filter>Source Files\awtk\src\ext_widgets\mledit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\mledit\mledit.h">
+      <Filter>Source Files\awtk\src\ext_widgets\mledit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\mutable_image\mutable_image.h">
+      <Filter>Source Files\awtk\src\ext_widgets\mutable_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\progress_circle\progress_circle.h">
+      <Filter>Source Files\awtk\src\ext_widgets\progress_circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text.h">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_node.h">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_parser.h">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_render_node.h">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_label\hscroll_label.h">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\children_layouter_list_view.h">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_item.h">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view.h">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view_h.h">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_bar.h">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_view.h">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\slide_menu\slide_menu.h">
+      <Filter>Source Files\awtk\src\ext_widgets\slide_menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_indicator.h">
+      <Filter>Source Files\awtk\src\ext_widgets\slide_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_view.h">
+      <Filter>Source Files\awtk\src\ext_widgets\slide_view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\svg_image\svg_image.h">
+      <Filter>Source Files\awtk\src\ext_widgets\svg_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\switch\switch.h">
+      <Filter>Source Files\awtk\src\ext_widgets\switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\text_selector\text_selector.h">
+      <Filter>Source Files\awtk\src\ext_widgets\text_selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\time_clock\time_clock.h">
+      <Filter>Source Files\awtk\src\ext_widgets\time_clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\ext_widgets.h">
+      <Filter>Source Files\awtk\src\ext_widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\image_animation\image_animation.h">
+      <Filter>Source Files\awtk\src\ext_widgets\image_animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_builtins.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_center_scale.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_common.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_fade.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_htranslate.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_popdown.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_popup.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_down.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_left.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_right.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_up.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_vtranslate.h">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_move.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_opacity.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_prop.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_prop2.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_rotation.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_scale.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_scroll.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_value.h">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf_usr_cfg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\awtk\src\awtk_global.c">
+      <Filter>Source Files\awtk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\assets_manager.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\bitmap.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\canvas.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\children_layouter.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\children_layouter_factory.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\clip_board.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\dialog.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\dialog_highlighter.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\dialog_highlighter_factory.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\enums.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\events.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\event_queue.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\font.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\font_loader.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\font_manager.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\glyph_cache.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\graphic_buffer.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\hscrollable.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\idle.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\image_base.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\image_loader.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\image_manager.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\input_device_status.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\input_engine.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\input_method.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\layout.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\lcd.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\lcd_profile.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\line_break.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\locale_info.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\main_loop.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\native_window.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\self_layouter.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\self_layouter_factory.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\shortcut.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\style.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\style_const.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\style_factory.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\style_mutable.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\suggest_words.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\system_info.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\text_edit.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\theme.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\timer.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\ui_builder.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\ui_feedback.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\ui_loader.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\velocity.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\vgcanvas.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\widget.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\widget_animator.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\widget_animator_factory_null.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\widget_animator_manager.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\widget_factory.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\widget_vtable.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\window.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\window_animator.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\window_animator_factory.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\window_base.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\base\window_manager.c">
+      <Filter>Source Files\awtk\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr565_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr888_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgra8888_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb565_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb888_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgba8888_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_abgr8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_argb8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_bgr888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_rgb565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_rgb888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\image_g2d.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_bgr565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_bgr888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_bgra8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_rgb565.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_rgb888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_rgba8888.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\soft_g2d.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\blend\stm32_g2d.c">
+      <Filter>Source Files\awtk\src\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\clip_board\clip_board_default.c">
+      <Filter>Source Files\awtk\src\clip_board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_builtins.c">
+      <Filter>Source Files\awtk\src\dialog_highlighters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_default.c">
+      <Filter>Source Files\awtk\src\dialog_highlighters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\font_loader\font_loader_bitmap.c">
+      <Filter>Source Files\awtk\src\font_laoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\font_loader\font_loader_ft.c">
+      <Filter>Source Files\awtk\src\font_laoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\font_loader\font_loader_stb.c">
+      <Filter>Source Files\awtk\src\font_laoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\graphic_buffer\graphic_buffer_default.c">
+      <Filter>Source Files\awtk\src\graphic_buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\image_loader\image_loader_stb.c">
+      <Filter>Source Files\awtk\src\image_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\input_engines\input_engine_null.c">
+      <Filter>Source Files\awtk\src\input_engines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\input_methods\input_method_creator.c">
+      <Filter>Source Files\awtk\src\input_methods</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\layouters\children_layouter_builtins.c">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\layouters\children_layouter_default.c">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\layouters\children_layouter_parser.c">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_builtins.c">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_default.c">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_menu.c">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_parser.c">
+      <Filter>Source Files\awtk\src\layouters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\misc\new.cpp">
+      <Filter>Source Files\awtk\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\misc\test_cpp.cpp">
+      <Filter>Source Files\awtk\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\native_window\native_window_raw.c">
+      <Filter>Source Files\awtk\src\native_window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg_builder.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg_draw.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg_to_svg.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_path.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_path_parser.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_shape.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_to_bsvg.c">
+      <Filter>Source Files\awtk\src\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\buffer.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\color.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\color_parser.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\compressor.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\crc.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\darray.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\date_time.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\easing.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\emitter.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\event.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_fd.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_idle.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_manager.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_manager_default.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_timer.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\expr_eval.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\fs.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\func_call_parser.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\idle_info.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\idle_manager.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\int_str.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\iostream.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\istream.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\log.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\matrix.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\mem.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\named_value.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\object.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\object_array.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\object_default.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\ostream.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\path.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\rect.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\ring_buffer.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\rom_fs.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\slist.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\socket_pair.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\str.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\str_str.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\timer_info.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\timer_manager.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\time_now.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\tokenizer.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\utf8.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\utils.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\value.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\value_desc.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\tkc\wstr.c">
+      <Filter>Source Files\awtk\src\tkc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ubjson\ubjson_parser.c">
+      <Filter>Source Files\awtk\src\ubjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ubjson\ubjson_reader.c">
+      <Filter>Source Files\awtk\src\ubjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ubjson\ubjson_writer.c">
+      <Filter>Source Files\awtk\src\ubjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_binary_writer.c">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_builder_default.c">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_loader_default.c">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_loader_xml.c">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_serializer.c">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_xml_writer.c">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\window_open.c">
+      <Filter>Source Files\awtk\src\ui_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\vgcanvas\vgcanvas_null.c">
+      <Filter>Source Files\awtk\src\vgcanvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\app_bar.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\button.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\button_group.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\calibration_win.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\check_button.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\color_tile.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\column.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\combo_box.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\combo_box_item.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\dialog_client.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\dialog_helper.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\dialog_title.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\digit_clock.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\dragger.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\edit.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\grid.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\grid_item.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\group_box.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\image.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\label.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\overlay.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\pages.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\popup.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\progress_bar.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\row.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\slider.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\spin_box.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\system_bar.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\tab_button.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\tab_button_group.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\tab_control.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\view.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widgets\widgets.c">
+      <Filter>Source Files\awtk\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_manager\window_manager_default.c">
+      <Filter>Source Files\awtk\src\window_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\xml\xml_builder.c">
+      <Filter>Source Files\awtk\src\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\xml\xml_parser.c">
+      <Filter>Source Files\awtk\src\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\canvas_widget\canvas_widget.c">
+      <Filter>Source Files\awtk\src\ext_widgets\canvas_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\color_picker\color_component.c">
+      <Filter>Source Files\awtk\src\ext_widgets\color_picker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\color_picker\color_picker.c">
+      <Filter>Source Files\awtk\src\ext_widgets\color_picker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\color_picker\rgb_and_hsv.c">
+      <Filter>Source Files\awtk\src\ext_widgets\color_picker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\combo_box_ex\combo_box_ex.c">
+      <Filter>Source Files\awtk\src\ext_widgets\combo_box_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\features\draggable.c">
+      <Filter>Source Files\awtk\src\ext_widgets\features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\gif_image\gif_image.c">
+      <Filter>Source Files\awtk\src\ext_widgets\gif_image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\guage\guage.c">
+      <Filter>Source Files\awtk\src\ext_widgets\guage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\guage\guage_pointer.c">
+      <Filter>Source Files\awtk\src\ext_widgets\guage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\image_value\image_value.c">
+      <Filter>Source Files\awtk\src\ext_widgets\image_value</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\keyboard\candidates.c">
+      <Filter>Source Files\awtk\src\ext_widgets\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\keyboard\keyboard.c">
+      <Filter>Source Files\awtk\src\ext_widgets\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\mledit\line_number.c">
+      <Filter>Source Files\awtk\src\ext_widgets\mledit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\mledit\mledit.c">
+      <Filter>Source Files\awtk\src\ext_widgets\mledit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\mutable_image\mutable_image.c">
+      <Filter>Source Files\awtk\src\ext_widgets\mutable_image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\progress_circle\progress_circle.c">
+      <Filter>Source Files\awtk\src\ext_widgets\progress_circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text.c">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_node.c">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_parser.c">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_render_node.c">
+      <Filter>Source Files\awtk\src\ext_widgets\rich_text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_label\hscroll_label.c">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\children_layouter_list_view.c">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_item.c">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view.c">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view_h.c">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_bar.c">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_view.c">
+      <Filter>Source Files\awtk\src\ext_widgets\scroll_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\slide_menu\slide_menu.c">
+      <Filter>Source Files\awtk\src\ext_widgets\slide_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_indicator.c">
+      <Filter>Source Files\awtk\src\ext_widgets\slide_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_view.c">
+      <Filter>Source Files\awtk\src\ext_widgets\slide_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\svg_image\svg_image.c">
+      <Filter>Source Files\awtk\src\ext_widgets\svg_image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\switch\switch.c">
+      <Filter>Source Files\awtk\src\ext_widgets\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\text_selector\text_selector.c">
+      <Filter>Source Files\awtk\src\ext_widgets\text_selector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\time_clock\time_clock.c">
+      <Filter>Source Files\awtk\src\ext_widgets\time_clock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\ext_widgets.c">
+      <Filter>Source Files\awtk\src\ext_widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\image_animation\image_animation.c">
+      <Filter>Source Files\awtk\src\ext_widgets\image_animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_builtins.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_center_scale.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_common.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_fade.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_htranslate.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_popdown.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_popup.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_down.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_left.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_right.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_up.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_vtranslate.c">
+      <Filter>Source Files\awtk\src\window_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_factory.c">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_prop.c">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_prop2.c">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_scroll.c">
+      <Filter>Source Files\awtk\src\widget_animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\awtk_vsf_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

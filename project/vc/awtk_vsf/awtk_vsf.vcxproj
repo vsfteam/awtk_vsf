@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{19BB1AD9-ACD6-4494-B108-E3ED6AE94E5C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>awtkvsf</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>awtk_vsf</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>AWTKVSF</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>AWTKVSF</TargetName>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>AWTKVSF</TargetName>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__VSF__;__CPU_X86__;__WIN__;HAS_STDIO;HAS_AWTK_CONFIG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..;$(ProjectDir)..\..\..\awtk\src;$(ProjectDir)..\..\..\awtk\3rd;$(ProjectDir)..\..\..\awtk\src\ext_widgets;$(ProjectDir)..\..\..\vsf\source\vsf;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\linux\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>awtk_vsf.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;AWTKVSF_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;AWTKVSF_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;AWTKVSF_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\awtk\src\base\ffr_draw_rounded_rect.inc" />
+    <None Include="..\..\..\awtk\src\base\wuxiaolin.inc" />
+    <None Include="..\..\..\awtk\src\blend\blend_image.inc" />
+    <None Include="..\..\..\awtk\src\blend\fill_image.inc" />
+    <None Include="..\..\..\awtk\src\blend\pixel_ops.inc" />
+    <None Include="..\..\..\awtk\src\blend\rotate_image.inc" />
+    <None Include="..\..\..\awtk\src\input_methods\input_method_default.inc" />
+    <None Include="..\..\..\awtk\src\input_methods\input_method_null.inc" />
+    <None Include="..\..\..\awtk\src\input_methods\suggest_words.inc" />
+    <None Include="..\..\..\awtk\src\vgcanvas\texture.inc" />
+    <None Include="awtk_vsf.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_c_lexer.h" />
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_image.h" />
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_image_resize.h" />
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_image_write.h" />
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_textedit.h" />
+    <ClInclude Include="..\..\..\awtk\3rd\stb\stb_truetype.h" />
+    <ClInclude Include="..\..\..\awtk\src\awtk.h" />
+    <ClInclude Include="..\..\..\awtk\src\awtk_base.h" />
+    <ClInclude Include="..\..\..\awtk\src\awtk_ext_widgets.h" />
+    <ClInclude Include="..\..\..\awtk\src\awtk_global.h" />
+    <ClInclude Include="..\..\..\awtk\src\awtk_tkc.h" />
+    <ClInclude Include="..\..\..\awtk\src\awtk_widgets.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\assets_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\awtk_config_sample.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\bitmap.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\canvas.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\children_layouter.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\children_layouter_factory.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\clip_board.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\dialog.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\dialog_highlighter.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\dialog_highlighter_factory.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\enums.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\events.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\event_queue.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\font.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\font_loader.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\font_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\g2d.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\glyph_cache.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\graphic_buffer.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\hscrollable.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\idle.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\image_base.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\image_loader.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\image_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\input_device_status.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\input_engine.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\input_method.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\keys.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\layout.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\layout_def.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\lcd.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\lcd_profile.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\line_break.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\locale_info.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\main_loop.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\native_window.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\pixel.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\pixel_pack_unpack.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\self_layouter.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\self_layouter_factory.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\shortcut.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\style.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\style_const.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\style_factory.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\style_mutable.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\suggest_words.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\system_info.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\text_edit.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\theme.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\timer.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\types_def.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\ui_builder.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\ui_feedback.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\ui_loader.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\velocity.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\vgcanvas.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\widget.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\widget_animator.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\widget_animator_factory.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\widget_animator_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\widget_consts.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\widget_factory.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\widget_vtable.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\window.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\window_animator.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\window_animator_factory.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\window_base.h" />
+    <ClInclude Include="..\..\..\awtk\src\base\window_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr565_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgr888_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_bgra8888_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb565_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgb888_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\blend_image_rgba8888_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_abgr8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_argb8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_bgr888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_rgb565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_rgb888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\fill_image_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\image_g2d.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_bgr565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_bgr888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_bgra8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_rgb565.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_rgb888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\rotate_image_rgba8888.h" />
+    <ClInclude Include="..\..\..\awtk\src\blend\soft_g2d.h" />
+    <ClInclude Include="..\..\..\awtk\src\clip_board\clip_board_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_builtins.h" />
+    <ClInclude Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\canvas_widget\canvas_widget.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\color_component.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\color_picker.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\color_picker_const.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\color_picker\rgb_and_hsv.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\combo_box_ex\combo_box_ex.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\ext_widgets.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\features\draggable.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\gif_image\gif_image.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\guage\guage.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\guage\guage_pointer.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\image_animation\image_animation.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\image_value\image_value.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\keyboard\candidates.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\keyboard\keyboard.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\mledit\line_number.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\mledit\mledit.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\mutable_image\mutable_image.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\progress_circle\progress_circle.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_node.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_parser.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_render_node.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_label\hscroll_label.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\children_layouter_list_view.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_item.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view_h.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_bar.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_view.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\slide_menu\slide_menu.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_indicator.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_view.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\svg_image\svg_image.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\switch\switch.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\text_selector\text_selector.h" />
+    <ClInclude Include="..\..\..\awtk\src\ext_widgets\time_clock\time_clock.h" />
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_bitmap.h" />
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_ft.h" />
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_stb.h" />
+    <ClInclude Include="..\..\..\awtk\src\font_loader\font_loader_truetype.h" />
+    <ClInclude Include="..\..\..\awtk\src\image_loader\image_loader_stb.h" />
+    <ClInclude Include="..\..\..\awtk\src\input_engines\input_engine_null.h" />
+    <ClInclude Include="..\..\..\awtk\src\input_methods\input_method_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\input_methods\input_method_null.h" />
+    <ClInclude Include="..\..\..\awtk\src\layouters\children_layouter_builtins.h" />
+    <ClInclude Include="..\..\..\awtk\src\layouters\children_layouter_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\layouters\self_layouter_builtins.h" />
+    <ClInclude Include="..\..\..\awtk\src\layouters\self_layouter_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\layouters\self_layouter_menu.h" />
+    <ClInclude Include="..\..\..\awtk\src\misc\new.hpp" />
+    <ClInclude Include="..\..\..\awtk\src\native_window\native_window_raw.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_builder.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_common.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_draw.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\bsvg_to_svg.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_path.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_path_parser.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_shape.h" />
+    <ClInclude Include="..\..\..\awtk\src\svg\svg_to_bsvg.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\asset_info.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\buffer.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\color.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\color_parser.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\compressor.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\cond_var.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\crc.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\darray.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\date_time.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\easing.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\emitter.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\endian.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\event.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_fd.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_idle.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_manager_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\event_source_timer.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\expr_eval.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\fs.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\func_call_parser.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\func_desc.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\idle_info.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\idle_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\int_str.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\iostream.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\istream.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\log.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\matrix.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\mem.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\mime_types.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\mutex.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\named_value.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\object.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\object_array.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\object_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\ostream.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\path.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\platform.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\rect.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\ring_buffer.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\rom_fs.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\semaphore.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\slist.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\socket_pair.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\str.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\stream_const.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\str_str.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\thread.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\timer_info.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\timer_manager.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\time_now.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\tokenizer.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\types_def.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\utf8.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\utils.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\value.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\value_desc.h" />
+    <ClInclude Include="..\..\..\awtk\src\tkc\wstr.h" />
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_const.h" />
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_parser.h" />
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_reader.h" />
+    <ClInclude Include="..\..\..\awtk\src\ubjson\ubjson_writer.h" />
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_binary_writer.h" />
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_builder_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_loader_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_loader_xml.h" />
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_serializer.h" />
+    <ClInclude Include="..\..\..\awtk\src\ui_loader\ui_xml_writer.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\app_bar.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\button.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\button_group.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\calibration_win.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\check_button.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\color_tile.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\column.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\combo_box.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\combo_box_item.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\dialog_client.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\dialog_title.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\digit_clock.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\dragger.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\edit.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\grid.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\grid_item.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\group_box.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\image.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\label.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\overlay.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\pages.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\popup.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\progress_bar.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\row.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\slider.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\spin_box.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\system_bar.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\tab_button.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\tab_button_group.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\tab_control.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\view.h" />
+    <ClInclude Include="..\..\..\awtk\src\widgets\widgets.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_move.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_opacity.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_prop.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_prop2.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_rotation.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_scale.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_scroll.h" />
+    <ClInclude Include="..\..\..\awtk\src\widget_animators\widget_animator_value.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_builtins.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_center_scale.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_common.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_fade.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_htranslate.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_popdown.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_popup.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_down.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_left.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_right.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_slide_up.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_animators\window_animator_vtranslate.h" />
+    <ClInclude Include="..\..\..\awtk\src\window_manager\window_manager_default.h" />
+    <ClInclude Include="..\..\..\awtk\src\xml\xml_builder.h" />
+    <ClInclude Include="..\..\..\awtk\src\xml\xml_parser.h" />
+    <ClInclude Include="..\..\..\awtk_config.h" />
+    <ClInclude Include="..\..\..\awtk_vsf_port.h" />
+    <ClInclude Include="..\..\..\vsf_usr_cfg.h" />
+    <ClInclude Include="awtk_vsf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\awtk\src\awtk_global.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\assets_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\bitmap.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\canvas.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\children_layouter.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\children_layouter_factory.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\clip_board.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\dialog.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\dialog_highlighter.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\dialog_highlighter_factory.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\enums.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\events.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\event_queue.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\font.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\font_loader.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\font_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\glyph_cache.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\graphic_buffer.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\hscrollable.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\idle.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\image_base.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\image_loader.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\image_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\input_device_status.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\input_engine.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\input_method.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\layout.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\lcd.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\lcd_profile.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\line_break.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\locale_info.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\main_loop.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\native_window.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\self_layouter.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\self_layouter_factory.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\shortcut.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\style.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\style_const.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\style_factory.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\style_mutable.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\suggest_words.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\system_info.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\text_edit.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\theme.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\timer.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\ui_builder.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\ui_feedback.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\ui_loader.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\velocity.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\vgcanvas.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\widget.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\widget_animator.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\widget_animator_factory_null.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\widget_animator_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\widget_factory.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\widget_vtable.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\window.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\window_animator.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\window_animator_factory.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\window_base.c" />
+    <ClCompile Include="..\..\..\awtk\src\base\window_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr565_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr565_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr888_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgr888_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgra8888_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_bgra8888_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb565_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb565_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb888_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgb888_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgba8888_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\blend_image_rgba8888_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_abgr8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_argb8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_bgr888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_rgb565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_rgb888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\fill_image_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\image_g2d.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_bgr565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_bgr888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_bgra8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_rgb565.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_rgb888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\rotate_image_rgba8888.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\soft_g2d.c" />
+    <ClCompile Include="..\..\..\awtk\src\blend\stm32_g2d.c" />
+    <ClCompile Include="..\..\..\awtk\src\clip_board\clip_board_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_builtins.c" />
+    <ClCompile Include="..\..\..\awtk\src\dialog_highlighters\dialog_highlighter_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\canvas_widget\canvas_widget.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\color_picker\color_component.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\color_picker\color_picker.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\color_picker\rgb_and_hsv.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\combo_box_ex\combo_box_ex.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\ext_widgets.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\features\draggable.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\gif_image\gif_image.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\guage\guage.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\guage\guage_pointer.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\image_animation\image_animation.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\image_value\image_value.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\keyboard\candidates.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\keyboard\keyboard.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\mledit\line_number.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\mledit\mledit.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\mutable_image\mutable_image.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\progress_circle\progress_circle.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_node.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_parser.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\rich_text\rich_text_render_node.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_label\hscroll_label.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\children_layouter_list_view.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_item.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\list_view_h.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_bar.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\scroll_view\scroll_view.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\slide_menu\slide_menu.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_indicator.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\slide_view\slide_view.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\svg_image\svg_image.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\switch\switch.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\text_selector\text_selector.c" />
+    <ClCompile Include="..\..\..\awtk\src\ext_widgets\time_clock\time_clock.c" />
+    <ClCompile Include="..\..\..\awtk\src\font_loader\font_loader_bitmap.c" />
+    <ClCompile Include="..\..\..\awtk\src\font_loader\font_loader_ft.c" />
+    <ClCompile Include="..\..\..\awtk\src\font_loader\font_loader_stb.c" />
+    <ClCompile Include="..\..\..\awtk\src\graphic_buffer\graphic_buffer_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\image_loader\image_loader_stb.c" />
+    <ClCompile Include="..\..\..\awtk\src\input_engines\input_engine_null.c" />
+    <ClCompile Include="..\..\..\awtk\src\input_methods\input_method_creator.c" />
+    <ClCompile Include="..\..\..\awtk\src\layouters\children_layouter_builtins.c" />
+    <ClCompile Include="..\..\..\awtk\src\layouters\children_layouter_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\layouters\children_layouter_parser.c" />
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_builtins.c" />
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_menu.c" />
+    <ClCompile Include="..\..\..\awtk\src\layouters\self_layouter_parser.c" />
+    <ClCompile Include="..\..\..\awtk\src\misc\new.cpp" />
+    <ClCompile Include="..\..\..\awtk\src\misc\test_cpp.cpp" />
+    <ClCompile Include="..\..\..\awtk\src\native_window\native_window_raw.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg_builder.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg_draw.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\bsvg_to_svg.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_path.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_path_parser.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_shape.c" />
+    <ClCompile Include="..\..\..\awtk\src\svg\svg_to_bsvg.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\buffer.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\color.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\color_parser.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\compressor.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\crc.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\darray.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\date_time.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\easing.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\emitter.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\event.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_fd.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_idle.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_manager_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\event_source_timer.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\expr_eval.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\fs.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\func_call_parser.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\idle_info.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\idle_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\int_str.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\iostream.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\istream.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\log.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\matrix.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\mem.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\named_value.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\object.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\object_array.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\object_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\ostream.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\path.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\rect.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\ring_buffer.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\rom_fs.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\slist.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\socket_pair.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\str.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\str_str.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\timer_info.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\timer_manager.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\time_now.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\tokenizer.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\utf8.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\utils.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\value.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\value_desc.c" />
+    <ClCompile Include="..\..\..\awtk\src\tkc\wstr.c" />
+    <ClCompile Include="..\..\..\awtk\src\ubjson\ubjson_parser.c" />
+    <ClCompile Include="..\..\..\awtk\src\ubjson\ubjson_reader.c" />
+    <ClCompile Include="..\..\..\awtk\src\ubjson\ubjson_writer.c" />
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_binary_writer.c" />
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_builder_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_loader_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_loader_xml.c" />
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_serializer.c" />
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\ui_xml_writer.c" />
+    <ClCompile Include="..\..\..\awtk\src\ui_loader\window_open.c" />
+    <ClCompile Include="..\..\..\awtk\src\vgcanvas\vgcanvas_null.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\app_bar.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\button.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\button_group.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\calibration_win.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\check_button.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\color_tile.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\column.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\combo_box.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\combo_box_item.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\dialog_client.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\dialog_helper.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\dialog_title.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\digit_clock.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\dragger.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\edit.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\grid.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\grid_item.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\group_box.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\image.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\label.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\overlay.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\pages.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\popup.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\progress_bar.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\row.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\slider.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\spin_box.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\system_bar.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\tab_button.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\tab_button_group.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\tab_control.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\view.c" />
+    <ClCompile Include="..\..\..\awtk\src\widgets\widgets.c" />
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_factory.c" />
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_prop.c" />
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_prop2.c" />
+    <ClCompile Include="..\..\..\awtk\src\widget_animators\widget_animator_scroll.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_builtins.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_center_scale.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_common.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_fade.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_htranslate.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_popdown.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_popup.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_down.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_left.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_right.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_slide_up.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_animators\window_animator_vtranslate.c" />
+    <ClCompile Include="..\..\..\awtk\src\window_manager\window_manager_default.c" />
+    <ClCompile Include="..\..\..\awtk\src\xml\xml_builder.c" />
+    <ClCompile Include="..\..\..\awtk\src\xml\xml_parser.c" />
+    <ClCompile Include="..\..\..\awtk_vsf_port.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
