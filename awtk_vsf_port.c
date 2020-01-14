@@ -103,12 +103,16 @@ static void __vsf_awtk_disp_on_ready(vk_disp_t *disp)
     vsf_eda_post_evt_impl(eda, VSF_EVT_USER);
 }
 
-void vsf_awtk_disp_bind(vk_disp_t *disp, lcd_t *lcd)
+lcd_t *vsf_awtk_create_lcd_mem_fragment(vk_disp_t *disp, wh_t w, wh_t h)
 {
-    lcd->impl_data = disp;
-    lcd->flush = lcd_mem_fragment_flush_vsf;
-    disp->ui_on_ready = __vsf_awtk_disp_on_ready;
-    vk_disp_init_impl(disp);
+    lcd_t *lcd = lcd_mem_fragment_create(w, h);
+    if (lcd != NULL) {
+        lcd->impl_data = disp;
+        lcd->flush = lcd_mem_fragment_flush_vsf;
+        disp->ui_on_ready = __vsf_awtk_disp_on_ready;
+        vk_disp_init_impl(disp);
+    }
+    return lcd;
 }
 
 void awtk_vsf_init(vsf_awtk_op_t *op)

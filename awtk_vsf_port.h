@@ -32,6 +32,7 @@ typedef struct vsf_awtk_op_t {
     vsf_err_t (*vk_disp_init_impl)(vk_disp_t *pthis);
 } vsf_awtk_op_t;
 
+extern lcd_t *vsf_awtk_create_lcd_mem_fragment(vk_disp_t *disp, wh_t w, wh_t h);
 extern void awtk_vsf_init(vsf_awtk_op_t *op);
 
 #endif

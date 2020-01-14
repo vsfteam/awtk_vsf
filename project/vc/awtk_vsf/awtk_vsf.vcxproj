@@ -481,7 +481,6 @@
     <ClInclude Include="..\..\..\awtk_config.h" />
     <ClInclude Include="..\..\..\awtk_vsf_port.h" />
     <ClInclude Include="..\..\..\vsf_usr_cfg.h" />
-    <ClInclude Include="awtk_vsf.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\awtk\src\awtk_global.c" />

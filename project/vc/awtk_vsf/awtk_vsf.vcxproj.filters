@@ -193,9 +193,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="awtk_vsf.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\awtk\3rd\stb\stb_c_lexer.h">
       <Filter>Source Files\awtk\3rd\stb</Filter>
     </ClInclude>
@@ -1112,6 +1109,9 @@
       <Filter>Source Files\awtk\src\widget_animators</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\vsf_usr_cfg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\awtk_vsf_port.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

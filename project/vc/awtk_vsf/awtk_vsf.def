@@ -38,6 +38,6 @@ EXPORTS
   widget_get_value
   tk_run
   lcd_mem_fragment_create
-  vsf_awtk_disp_bind
+  vsf_awtk_create_lcd_mem_fragment
   main_loop
   awtk_vsf_init
